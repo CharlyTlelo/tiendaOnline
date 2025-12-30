@@ -17,7 +17,7 @@
   "hasDiscount": true,
   "oldPrice": 699,
   "category": "Niños",
-  "description": "Figura coleccionable Bart Simpson 5 pulgadas - Wave 4",
+  "description": "Figura coleccionable Barney Simpson 5 pulgadas - Wave 4",
   "image": "assets/img/simpson-barney.webp"
   },
   {
@@ -27,7 +27,7 @@
   "hasDiscount": true,
   "oldPrice": 699,
   "category": "Niños",
-  "description": "Figura coleccionable Bart Simpson 5 pulgadas - Wave 4",
+  "description": "Figura coleccionable Bumblebee Simpson 5 pulgadas - Wave 4",
   "image": "assets/img/simpson-Bumblebee.webp"
   },
     {
@@ -37,29 +37,31 @@
   "hasDiscount": true,
   "oldPrice": 399,
   "category": "Niños",
-  "description": "Figura coleccionable Bart Simpson 5 pulgadas - Wave 4",
+  "description": "Figura coleccionable kearney Simpson 5 pulgadas - Wave 4",
   "image": "assets/img/simpson-kearney.webp"
   },
   {
     "id": "p5",
+    "name": "Figura coleccionable Sr. Burns Simpson 5 pulgadas",
+  "price": 799,
+  "hasDiscount": true,
+  "oldPrice": 1099,
+  "category": "Niños",
+  "description": "Figura coleccionable Sr. Burns",
+  "image": "assets/img/simpson-burns.webp"
+  },
+
+   {
+    "id": "p7",
     "name": "The Simpson Multi-Pack Coleccionable Familia Simpson",
   "price": 799,
   "hasDiscount": true,
   "oldPrice": 1099,
   "category": "Niños",
-  "description": "Figura coleccionable Bart Simpson 5 pulgadas - Wave 4",
-  "image": "assets/img/simpson-kearney.webp"
+  "description": "Figura coleccionable Familia Simpson",
+  "image": "assets/img/simpson-family.webp"
   },
-  {
-    "id": "p6",
-    "name": "The Simpson Multi-Pack Coleccionable Familia Simpson",
-  "price": 799,
-  "hasDiscount": true,
-  "oldPrice": 1099,
-  "category": "Niños",
-  "description": "Figura coleccionable Bart Simpson 5 pulgadas - Wave 4",
-  "image": "assets/img/simpson-kearney.webp"
-  },
+
   {
     "id": "p7",
     "name": "Nintendo Mario Kart Wave 5 Mario – Jakks Pacific",
