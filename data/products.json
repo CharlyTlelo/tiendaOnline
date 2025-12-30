@@ -150,6 +150,56 @@
   "category": "Familiar",
   "description": "Juego de mesa UNO Canvas Lotería",
   "image": "assets/img/familiar/mesa-unoLoteria.webp"
+  },
+  {
+    "id": "p16",
+    "name": "Monopoly Edición Para Adultos – ¡La Versión Oficial De Beber!",
+  "price": 649,
+  "hasDiscount": true,
+  "oldPrice": 799,
+  "category": "Familiar",
+  "description": "¡La Versión Oficial De Beber!",
+  "image": "assets/img/familiar/mesa-monopolyAdultos.webp"
+  },
+  {
+    "id": "p17",
+    "name": "Minecraft Biomes 3X49P 5621",
+  "price": 250,
+  "hasDiscount": false,
+  "oldPrice": null,
+  "category": "Familiar",
+  "description": "Rompecabezas minecraft",
+  "image": "assets/img/familiar/mesa-puzzleMinecraft.webp"
+  },
+  {
+    "id": "p18",
+    "name": "Pokémon Pokeball 3D",
+  "price": 175,
+  "hasDiscount": true,
+  "oldPrice": 220,
+  "category": "Familiar",
+  "description": "Ravensburger 11256 Pokémon Pokeball 3D",
+  "image": "assets/img/familiar/mesa-pokeball.webp"
+  },
+  {
+    "id": "p19",
+    "name": "Pokémon Rompecabezas edición especial Pokémon",
+  "price": 300,
+  "hasDiscount": true,
+  "oldPrice": 399,
+  "category": "Familiar",
+  "description": "Rompecabezas edición especial Pokémon 500 piezas JCA-4162",
+  "image": "assets/img/familiar/mesa-puzzlePokemon1.webp"
+  },
+  {
+    "id": "p20",
+    "name": "Cubo RUBIKS 3X3",
+  "price": 250,
+  "hasDiscount": false,
+  "oldPrice": null,
+  "category": "Familiar",
+  "description": "Cubo magico 3 X 3",
+  "image": "assets/img/familiar/mesa-rubik3x3.webp"
   }
 
 ]
