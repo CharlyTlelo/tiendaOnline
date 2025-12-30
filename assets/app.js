@@ -1,7 +1,7 @@
 // ====== CONFIG ======
 // Cambia este número por el tuyo. Formato internacional sin "+" ni espacios.
 // México: 52 + 10 dígitos. Ej: 5215512345678 si usas wa.me directo a WhatsApp.
-const WHATSAPP_NUMBER = "52TU_NUMERO_AQUI";
+const WHATSAPP_NUMBER = "+525629404518";
 
 // Moneda MXN
 const money = (n) => new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN" }).format(n);
