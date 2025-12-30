@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carrito | Tienda de Juguetes</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__row">
+      <a class="brand" href="index.html">Tienda de Juguetes</a>
+      <nav class="nav">
+        <a href="catalogo.html">Catálogo</a>
+        <a href="carrito.html" class="active">Carrito <span id="cartCount" class="badge">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="toolbar">
+      <div>
+        <h1>Carrito</h1>
+        <p class="muted">Ajusta cantidades y finaliza por WhatsApp.</p>
+      </div>
+      <div>
+        <button class="btn btn--ghost" id="clearBtn">Vaciar</button>
+      </div>
+    </div>
+
+    <div id="cartWrap" class="card"></div>
+
+    <section class="checkout card">
+      <h2>Finalizar pedido</h2>
+      <div class="formgrid">
+        <label class="label">
+          Nombre (opcional)
+          <input id="name" class="input" placeholder="Tu nombre" />
+        </label>
+        <label class="label">
+          Colonia / zona (opcional)
+          <input id="zone" class="input" placeholder="Ej. Centro, Roma, etc." />
+        </label>
+        <label class="label">
+          Nota (opcional)
+          <input id="note" class="input" placeholder="Ej. horario preferido" />
+        </label>
+      </div>
+
+      <div class="checkout__row">
+        <div>
+          <div class="muted">Total estimado</div>
+          <div id="total" class="total">$0</div>
+        </div>
+
+        <button id="waBtn" class="btn btn--wa" type="button">
+          Pedir por WhatsApp
+        </button>
+      </div>
+
+      <p class="muted small">
+        La entrega y forma de pago se acuerdan por WhatsApp.
+      </p>
+    </section>
+  </main>
+
+  <script src="assets/app.js"></script>
+  <script>
+    (async () => {
+      updateCartBadge();
+      const products = await loadProducts();
+      renderCart(products);
+
+      document.getElementById('clearBtn').addEventListener('click', () => {
+        clearCart();
+        renderCart(products);
+        updateCartBadge();
+      });
+
+      document.getElementById('waBtn').addEventListener('click', () => {
+        const customer = {
+          name: document.getElementById('name').value.trim(),
+          zone: document.getElementById('zone').value.trim(),
+          note: document.getElementById('note').value.trim(),
+        };
+        openWhatsAppOrder(products, customer);
+      });
+    })();
+  </script>
+</body>
+</html>

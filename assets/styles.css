@@ -1,0 +1,92 @@
+:root{
+  --bg:#0b1220;
+  --card:#0f1b33;
+  --text:#eef2ff;
+  --textDos:#010f3f;
+  --muted:#a8b3cf;
+  --line:#1b2b52;
+  --btn:#2d6cff;
+  --btn2:#18a957;
+}
+
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; background:linear-gradient(180deg,#071022,#0b1220); color:var(--text)}
+a{color:inherit;text-decoration:none}
+.container{max-width:1100px;margin:0 auto;padding:18px}
+
+.topbar{position:sticky;top:0;background:rgba(7,16,34,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:10}
+.topbar__row{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{font-weight:700;letter-spacing:.2px}
+.nav{display:flex;gap:14px;align-items:center}
+.nav a{padding:8px 10px;border-radius:10px;color:var(--muted)}
+.nav a.active,.nav a:hover{background:rgba(255,255,255,.06);color:var(--text)}
+.badge{display:inline-block;min-width:22px;text-align:center;padding:2px 8px;border-radius:999px;background:rgba(255,255,255,.10);color:var(--text);font-size:12px}
+
+.hero{margin:18px 0 26px;padding:24px;border:1px solid var(--line);border-radius:18px;background:radial-gradient(900px 300px at 15% 10%, rgba(45,108,255,.35), transparent), rgba(255,255,255,.03)}
+.hero h1{margin:0 0 10px;font-size:34px}
+.hero p{margin:0 0 16px;color:var(--muted)}
+
+.toolbar{display:flex;gap:16px;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;margin:14px 0}
+.filters{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+
+.grid{display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:14px}
+@media (max-width: 900px){.grid{grid-template-columns:repeat(2, minmax(0,1fr));}}
+@media (max-width: 600px){.grid{grid-template-columns:1fr;}}
+
+.card{border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.03);padding:14px}
+.product{display:grid;grid-template-columns:120px 1fr;gap:12px;align-items:stretch}
+.product__img{border-radius:14px;overflow:hidden;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03);display:flex;align-items:center;justify-content:center}
+.product__img img{width:100%;height:100%;object-fit:cover}
+.imgph{padding:18px;color:var(--muted);font-size:12px}
+.product__top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.product__name{margin:0;font-size:16px}
+.product__price{font-weight:700}
+.product__desc{margin:8px 0 10px;color:var(--muted);font-size:13px;line-height:1.35}
+.product__actions{display:flex;justify-content:space-between;align-items:center;gap:10px}
+
+.btn{border:0;border-radius:12px;padding:10px 14px;background:var(--btn);color:white;font-weight:600;cursor:pointer}
+.btn:hover{filter:brightness(1.05)}
+.btn--ghost{background:rgba(255,255,255,.07)}
+.btn--small{padding:8px 10px;border-radius:12px}
+.btn--icon{width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center}
+.btn--wa{background:var(--btn2)}
+.input{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);border-radius:12px;color:var(--text);padding:10px 12px;outline:none}
+.input:focus{border-color:rgba(45,108,255,.6)}
+.label{display:flex;flex-direction:column;gap:6px}
+.muted{color:var(--muted)}
+.small{font-size:12px}
+
+.cart{display:flex;flex-direction:column;gap:10px}
+.cartrow{display:grid;grid-template-columns:1fr 160px 140px 90px;gap:10px;align-items:center;padding:10px;border-radius:14px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06)}
+@media (max-width: 800px){.cartrow{grid-template-columns:1fr;gap:8px}}
+.cartrow__name{font-weight:700}
+.cartrow__qty{display:flex;gap:8px;align-items:center}
+.qty{max-width:80px;text-align:center}
+.cartrow__price{font-weight:700}
+
+.checkout{margin-top:16px}
+.checkout__row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:10px}
+.total{font-size:26px;font-weight:800}
+.formgrid{display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:10px}
+@media (max-width: 800px){.formgrid{grid-template-columns:1fr}}
+
+.empty{text-align:center;padding:26px}
+
+.price-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-end; /* para que se vea como en tu card (precio a la derecha) */
+}
+
+.old-price {
+  color: #ff4d4f;
+  text-decoration: line-through;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.new-price {
+  font-size: 18px;
+  font-weight: 800;
+}

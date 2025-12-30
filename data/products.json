@@ -1,0 +1,155 @@
+[
+  {
+  "id": "p1",
+  "name": "The Simpson Figura de acción Coleccionable Bart",
+  "price": 499,
+  "hasDiscount": true,
+  "oldPrice": 699,
+  "category": "Niños",
+  "description": "Figura coleccionable Bart Simpson 5 pulgadas - Wave 4",
+  "image": "assets/img/simpson-bart.webp"
+}
+,
+  {
+    "id": "p2",
+    "name": "The Simpson Figura de acción Coleccionable Barney",
+  "price": 499,
+  "hasDiscount": true,
+  "oldPrice": 699,
+  "category": "Niños",
+  "description": "Figura coleccionable Bart Simpson 5 pulgadas - Wave 4",
+  "image": "assets/img/simpson-barney.webp"
+  },
+  {
+    "id": "p3",
+    "name": "The Simpson Figura de acción Coleccionable Bumblebee",
+  "price": 499,
+  "hasDiscount": true,
+  "oldPrice": 699,
+  "category": "Niños",
+  "description": "Figura coleccionable Bart Simpson 5 pulgadas - Wave 4",
+  "image": "assets/img/simpson-Bumblebee.webp"
+  },
+    {
+    "id": "p4",
+    "name": "The Simpson Figura de acción Coleccionable kearney",
+  "price": 299,
+  "hasDiscount": true,
+  "oldPrice": 399,
+  "category": "Niños",
+  "description": "Figura coleccionable Bart Simpson 5 pulgadas - Wave 4",
+  "image": "assets/img/simpson-kearney.webp"
+  },
+  {
+    "id": "p5",
+    "name": "The Simpson Multi-Pack Coleccionable Familia Simpson",
+  "price": 799,
+  "hasDiscount": true,
+  "oldPrice": 1099,
+  "category": "Niños",
+  "description": "Figura coleccionable Bart Simpson 5 pulgadas - Wave 4",
+  "image": "assets/img/simpson-kearney.webp"
+  },
+  {
+    "id": "p6",
+    "name": "The Simpson Multi-Pack Coleccionable Familia Simpson",
+  "price": 799,
+  "hasDiscount": true,
+  "oldPrice": 1099,
+  "category": "Niños",
+  "description": "Figura coleccionable Bart Simpson 5 pulgadas - Wave 4",
+  "image": "assets/img/simpson-kearney.webp"
+  },
+  {
+    "id": "p7",
+    "name": "Nintendo Mario Kart Wave 5 Mario – Jakks Pacific",
+  "price": 235,
+  "hasDiscount": true,
+  "oldPrice": 300,
+  "category": "Niños",
+  "description": "Figura coleccionable Nintendo Mario Kart",
+  "image": "assets/img/mario64-mario.webp"
+  },
+  {
+    "id": "p8",
+    "name": "Nintendo Mario Kart Wave 5 Luigi – Jakks Pacific",
+  "price": 235,
+  "hasDiscount": true,
+  "oldPrice": 300,
+  "category": "Niños",
+  "description": "Figura coleccionable Nintendo Mario Kart",
+  "image": "assets/img/mario64-luigi.webp"
+  },
+  {
+    "id": "p9",
+    "name": "Nintendo Mario Kart Wave 5 Yoshi  – Jakks Pacific",
+  "price": 235,
+  "hasDiscount": true,
+  "oldPrice": 300,
+  "category": "Niños",
+  "description": "Figura coleccionable Nintendo Mario Kart",
+  "image": "assets/img/mario64-Yoshi.webp"
+  },
+  {
+    "id": "p10",
+    "name": "Peluche Hello Kitty Sanrio 18cm Hello Kitty",
+  "price": 319,
+  "hasDiscount": true,
+  "oldPrice": 400,
+  "category": "Niñas",
+  "description": "Muñeco de peluche Hello kitty",
+  "image": "assets/img/ninas/peluche-hello kitty.webp"
+  }
+  ,
+  {
+    "id": "p11",
+    "name": "Peluche My melody",
+  "price": 319,
+  "hasDiscount": false,
+  "oldPrice": null,
+  "category": "Niñas",
+  "description": "Muñeco de peluche My Melody",
+  "image": "assets/img/ninas/peluche-myMelody.webp"
+  },
+  {
+    "id": "p12",
+    "name": "Peluche Hello Kitty Sanrio",
+  "price": 319,
+  "hasDiscount": false,
+  "oldPrice": null,
+  "category": "Niñas",
+  "description": "Muñeco de peluche Hello Kitty Sanrio",
+  "image": "assets/img/ninas/peluche-Hello Kitty Sanrio.webp"
+  },
+  {
+    "id": "p13",
+    "name": "Dora Set Los Mejores Amigos Dora y Botas",
+  "price": 320,
+  "hasDiscount": true,
+  "oldPrice": 499,
+  "category": "Niñas",
+  "description": "Muñeco de Dora Set Los Mejores Amigos Dora y Botas",
+  "image": "assets/img/ninas/muneca-doraYBotas.webp"
+  },
+  {
+    "id": "p14",
+    "name": "Dora la Exploradora My Adventure Backpack",
+  "price": 550,
+  "hasDiscount": true,
+  "oldPrice": 872,
+  "category": "Niñas",
+  "description": "Mochila oficial de Dora la exploradora",
+  "image": "assets/img/ninas/mochila-doraBackpack.webp"
+  },
+  {
+    "id": "p15",
+    "name": "Mattel – UNO Canvas Lotería",
+  "price": 355,
+  "hasDiscount": false,
+  "oldPrice": null,
+  "category": "Familiar",
+  "description": "Juego de mesa UNO Canvas Lotería",
+  "image": "assets/img/familiar/mesa-unoLoteria.webp"
+  }
+
+]

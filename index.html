@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tienda de Juguetes</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__row">
+      <a class="brand" href="index.html">Tienda de Juguetes</a>
+      <nav class="nav">
+        <a href="catalogo.html">Catálogo</a>
+        <a href="carrito.html">Carrito <span id="cartCount" class="badge">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Juguetes para regalar</h1>
+      <p>Elige tus productos y finaliza tu pedido por WhatsApp para coordinar la entrega.</p>
+      <a class="btn" href="catalogo.html">Ver catálogo</a>
+    </section>
+
+    <section>
+      <h2>Destacados</h2>
+      <div id="featuredGrid" class="grid"></div>
+    </section>
+  </main>
+
+  <script src="assets/app.js"></script>
+  <script>
+    (async () => {
+      updateCartBadge();
+      const products = await loadProducts();
+      const featured = products.slice(0, 6);
+      renderProductCards(featured, document.getElementById('featuredGrid'));
+    })();
+  </script>
+</body>
+</html>
